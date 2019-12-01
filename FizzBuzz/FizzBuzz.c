@@ -10,11 +10,17 @@ int main()
 
 	for(counter=1 ; counter<SIZE ; counter++) {
 		if((counter%FIZZ_NUMBER)==0 && (counter%BUZZ_NUMBER)==0) {
+			printf("\033[1;35m");
 			printf("FizzBuzz , ");
+			printf("\033[0m");
 		} else if(counter%FIZZ_NUMBER==0) {
+			printf("\033[0;32m");
 			printf("Fizz , ");
+			printf("\033[0m");
 		} else if(counter%BUZZ_NUMBER==0) {
+			printf("\033[0;32m");
 			printf("Buzz , ");
+			printf("\033[0m");
 		} else {
 			printf("%u , ",counter);
 		}
