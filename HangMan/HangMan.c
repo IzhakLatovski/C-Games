@@ -317,8 +317,8 @@ int main()
 	return 0;
 }
 
-
 /* TODO:
-	  - make the turns swap
+	  - improve messages of win/lose
 	  - remember the score
+	  - make the turns swap
 	  */
